@@ -1,0 +1,135 @@
+.articleBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  color: var(--color-text);
+  font-size: var(--text-base);
+  line-height: 1.7;
+}
+
+.summaryCallout {
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-surface-muted);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.summaryCalloutLabel {
+  font-size: var(--text-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+}
+
+.summaryCalloutText {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.paragraph {
+  margin: 0;
+  color: var(--color-text);
+  line-height: 1.75;
+}
+
+.inlineStrong {
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.stepsSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.stepsHeading {
+  margin: 0;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+}
+
+.stepsList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.stepItem {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: var(--space-3);
+  align-items: start;
+  padding: var(--space-4);
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: border-color var(--transition), background var(--transition);
+}
+
+.stepItem:hover {
+  border-color: var(--color-border-strong);
+}
+
+.stepBadge {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: #fff;
+  font-size: var(--text-xs);
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  box-shadow: var(--shadow-sm);
+}
+
+.stepTitle {
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.stepText {
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: 1.65;
+}
+
+.clinicalNoteBox {
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--color-primary-soft);
+  border: 1px solid var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.clinicalNoteLabel {
+  font-size: var(--text-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+}
+
+.clinicalNoteContent {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: 1.65;
+}

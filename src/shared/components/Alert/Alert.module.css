@@ -1,0 +1,33 @@
+.alert {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid transparent;
+  border-left-width: 4px;
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+}
+
+.title {
+  font-weight: 600;
+}
+
+.body {
+  margin-top: var(--space-1);
+}
+
+.error {
+  background: var(--color-danger-soft);
+  border-color: var(--color-danger);
+  color: #7d1f1f;
+}
+
+.success {
+  background: var(--color-success-soft);
+  border-color: var(--color-success);
+  color: #0d5236;
+}
+
+.info {
+  background: var(--color-primary-soft);
+  border-color: var(--color-primary);
+  color: #2e2b8a;
+}
